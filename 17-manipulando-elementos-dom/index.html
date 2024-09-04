@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manipulando os elementos do DOM</title>
+  </head>
+  <body>
+    <h1>Posts do Twitter</h1>
+
+    <article class="post">
+      <p><strong>Ricardo Dias</strong><span>@caduHD - 10 min</span></p>
+
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+        possimus consectetur rerum nostrum incidunt perferendis excepturi fuga
+        pariatur molestiae officiis. Quis, explicabo. Quasi nulla eaque
+        perspiciatis reprehenderit culpa impedit facere.
+      </p>
+
+      <br />
+      <div class="comentarios">
+        <h3>Comentários:</h3>
+
+        <input
+          name="novo-comentario"
+          type="text"
+          placeholder="Digite o seu comentário"
+        />
+
+        <button onclick="adicionarComentario()">Adicionar comentário</button>
+
+        <br />
+
+        <div id="novos-comentarios">
+          <!--É aqui que vai ser inserido as novas porções de html que a gente vai criar no JS e vai inserir aqui-->
+        </div>
+      </div>
+    </article>
+
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
