@@ -9,7 +9,7 @@
 
 document
 .querySelector("select[name='estado']")
-.addEventListener('change', function () {
-    alert('mudou o select')
+.addEventListener('change', function (event) {
+    console.log(event.target.value)
 })
 
